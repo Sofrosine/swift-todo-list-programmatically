@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E542EE4D284AEFBC00074860 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542EE4C284AEFBC00074860 /* UserDefaults+Extension.swift */; };
+		E542EE4F284B8B7800074860 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542EE4E284B8B7800074860 /* UIStackView+Extension.swift */; };
 		E5D7AE5E284779AA00BE8800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE5D284779AA00BE8800 /* AppDelegate.swift */; };
 		E5D7AE60284779AA00BE8800 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE5F284779AA00BE8800 /* SceneDelegate.swift */; };
-		E5D7AE62284779AA00BE8800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE61284779AA00BE8800 /* ViewController.swift */; };
-		E5D7AE65284779AA00BE8800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D7AE63284779AA00BE8800 /* Main.storyboard */; };
+		E5D7AE62284779AA00BE8800 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE61284779AA00BE8800 /* HomeViewController.swift */; };
 		E5D7AE67284779AE00BE8800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D7AE66284779AE00BE8800 /* Assets.xcassets */; };
 		E5D7AE6A284779AE00BE8800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D7AE68284779AE00BE8800 /* LaunchScreen.storyboard */; };
+		E5D7AE7528477BD900BE8800 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE7428477BD900BE8800 /* Todo.swift */; };
+		E5D7AE7728477BFF00BE8800 /* TodosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE7628477BFF00BE8800 /* TodosViewModel.swift */; };
+		E5D7AE7C28478EF400BE8800 /* EnumUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE7928478EF400BE8800 /* EnumUI.swift */; };
+		E5D7AE8228478F1B00BE8800 /* CircularStd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5D7AE7F28478F1B00BE8800 /* CircularStd-Book.ttf */; };
+		E5D7AE8328478F1B00BE8800 /* CircularStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5D7AE8028478F1B00BE8800 /* CircularStd-Bold.ttf */; };
+		E5D7AE8428478F1B00BE8800 /* CircularStd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5D7AE8128478F1B00BE8800 /* CircularStd-Medium.ttf */; };
+		E5D7AE892847BA1E00BE8800 /* NavbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE882847BA1E00BE8800 /* NavbarViewController.swift */; };
+		E5D7AE8C2847CCDB00BE8800 /* CellTodosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7AE8B2847CCDB00BE8800 /* CellTodosTableViewCell.swift */; };
+		E5DEA635284D0CFF009869B4 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DEA634284D0CFF009869B4 /* UIButton+Extension.swift */; };
+		E5DEA637284D0D0F009869B4 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DEA636284D0D0F009869B4 /* UIImage+Extension.swift */; };
+		E5DEA639284D0D27009869B4 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DEA638284D0D27009869B4 /* UILabel+Extension.swift */; };
+		E5E0558F2849042F00FFBAD8 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E0558D2849042F00FFBAD8 /* ObservableObject.swift */; };
+		E5E0559128490A2D00FFBAD8 /* TodosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E0559028490A2D00FFBAD8 /* TodosService.swift */; };
+		E5E055942849BCF500FFBAD8 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E055932849BCF500FFBAD8 /* AddTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E542EE4C284AEFBC00074860 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		E542EE4E284B8B7800074860 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		E5D7AE5A284779AA00BE8800 /* todo-app-swift-programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todo-app-swift-programmatically.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D7AE5D284779AA00BE8800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5D7AE5F284779AA00BE8800 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5D7AE61284779AA00BE8800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5D7AE64284779AA00BE8800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5D7AE61284779AA00BE8800 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E5D7AE66284779AE00BE8800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5D7AE69284779AE00BE8800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5D7AE6B284779AE00BE8800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D7AE7428477BD900BE8800 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		E5D7AE7628477BFF00BE8800 /* TodosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewModel.swift; sourceTree = "<group>"; };
+		E5D7AE7928478EF400BE8800 /* EnumUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumUI.swift; sourceTree = "<group>"; };
+		E5D7AE7F28478F1B00BE8800 /* CircularStd-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.ttf"; sourceTree = "<group>"; };
+		E5D7AE8028478F1B00BE8800 /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.ttf"; sourceTree = "<group>"; };
+		E5D7AE8128478F1B00BE8800 /* CircularStd-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.ttf"; sourceTree = "<group>"; };
+		E5D7AE882847BA1E00BE8800 /* NavbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarViewController.swift; sourceTree = "<group>"; };
+		E5D7AE8B2847CCDB00BE8800 /* CellTodosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTodosTableViewCell.swift; sourceTree = "<group>"; };
+		E5DEA634284D0CFF009869B4 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		E5DEA636284D0D0F009869B4 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E5DEA638284D0D27009869B4 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		E5E0558D2849042F00FFBAD8 /* ObservableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		E5E0559028490A2D00FFBAD8 /* TodosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosService.swift; sourceTree = "<group>"; };
+		E5E055932849BCF500FFBAD8 /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,126 @@
 		E5D7AE5C284779AA00BE8800 /* todo-app-swift-programmatically */ = {
 			isa = PBXGroup;
 			children = (
+				E5E0558B2849041F00FFBAD8 /* Services */,
+				E5D7AE7828478EF400BE8800 /* Enum */,
+				E5D7AE7A28478EF400BE8800 /* Extensions */,
+				E5D7AE7128477B7300BE8800 /* Models */,
+				E5D7AE7228477B7A00BE8800 /* ViewModels */,
+				E5D7AE7328477B8500BE8800 /* ViewControllers */,
+				E5D7AE862847B9E600BE8800 /* CustomViews */,
+				E5D7AE7E28478F1B00BE8800 /* fonts */,
 				E5D7AE5D284779AA00BE8800 /* AppDelegate.swift */,
 				E5D7AE5F284779AA00BE8800 /* SceneDelegate.swift */,
-				E5D7AE61284779AA00BE8800 /* ViewController.swift */,
-				E5D7AE63284779AA00BE8800 /* Main.storyboard */,
 				E5D7AE66284779AE00BE8800 /* Assets.xcassets */,
 				E5D7AE68284779AE00BE8800 /* LaunchScreen.storyboard */,
 				E5D7AE6B284779AE00BE8800 /* Info.plist */,
 			);
 			path = "todo-app-swift-programmatically";
+			sourceTree = "<group>";
+		};
+		E5D7AE7128477B7300BE8800 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE7428477BD900BE8800 /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5D7AE7228477B7A00BE8800 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE7628477BFF00BE8800 /* TodosViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E5D7AE7328477B8500BE8800 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5E055922849BC8800FFBAD8 /* AddTodo */,
+				E5D7AE852847B9D300BE8800 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5D7AE7828478EF400BE8800 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE7928478EF400BE8800 /* EnumUI.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		E5D7AE7A28478EF400BE8800 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E542EE4C284AEFBC00074860 /* UserDefaults+Extension.swift */,
+				E542EE4E284B8B7800074860 /* UIStackView+Extension.swift */,
+				E5DEA634284D0CFF009869B4 /* UIButton+Extension.swift */,
+				E5DEA636284D0D0F009869B4 /* UIImage+Extension.swift */,
+				E5DEA638284D0D27009869B4 /* UILabel+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E5D7AE7E28478F1B00BE8800 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE7F28478F1B00BE8800 /* CircularStd-Book.ttf */,
+				E5D7AE8028478F1B00BE8800 /* CircularStd-Bold.ttf */,
+				E5D7AE8128478F1B00BE8800 /* CircularStd-Medium.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		E5D7AE852847B9D300BE8800 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE61284779AA00BE8800 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E5D7AE862847B9E600BE8800 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE8A2847CCA600BE8800 /* CellTodos */,
+				E5D7AE872847B9F400BE8800 /* Navbar */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E5D7AE872847B9F400BE8800 /* Navbar */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE882847BA1E00BE8800 /* NavbarViewController.swift */,
+			);
+			path = Navbar;
+			sourceTree = "<group>";
+		};
+		E5D7AE8A2847CCA600BE8800 /* CellTodos */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7AE8B2847CCDB00BE8800 /* CellTodosTableViewCell.swift */,
+			);
+			path = CellTodos;
+			sourceTree = "<group>";
+		};
+		E5E0558B2849041F00FFBAD8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5E0558D2849042F00FFBAD8 /* ObservableObject.swift */,
+				E5E0559028490A2D00FFBAD8 /* TodosService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E5E055922849BC8800FFBAD8 /* AddTodo */ = {
+			isa = PBXGroup;
+			children = (
+				E5E055932849BCF500FFBAD8 /* AddTodoViewController.swift */,
+			);
+			path = AddTodo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D7AE8428478F1B00BE8800 /* CircularStd-Medium.ttf in Resources */,
 				E5D7AE6A284779AE00BE8800 /* LaunchScreen.storyboard in Resources */,
 				E5D7AE67284779AE00BE8800 /* Assets.xcassets in Resources */,
-				E5D7AE65284779AA00BE8800 /* Main.storyboard in Resources */,
+				E5D7AE8328478F1B00BE8800 /* CircularStd-Bold.ttf in Resources */,
+				E5D7AE8228478F1B00BE8800 /* CircularStd-Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +281,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D7AE62284779AA00BE8800 /* ViewController.swift in Sources */,
+				E5DEA639284D0D27009869B4 /* UILabel+Extension.swift in Sources */,
+				E5D7AE62284779AA00BE8800 /* HomeViewController.swift in Sources */,
+				E542EE4F284B8B7800074860 /* UIStackView+Extension.swift in Sources */,
 				E5D7AE5E284779AA00BE8800 /* AppDelegate.swift in Sources */,
 				E5D7AE60284779AA00BE8800 /* SceneDelegate.swift in Sources */,
+				E5E0558F2849042F00FFBAD8 /* ObservableObject.swift in Sources */,
+				E5E055942849BCF500FFBAD8 /* AddTodoViewController.swift in Sources */,
+				E5D7AE7528477BD900BE8800 /* Todo.swift in Sources */,
+				E5DEA635284D0CFF009869B4 /* UIButton+Extension.swift in Sources */,
+				E5DEA637284D0D0F009869B4 /* UIImage+Extension.swift in Sources */,
+				E5E0559128490A2D00FFBAD8 /* TodosService.swift in Sources */,
+				E5D7AE7C28478EF400BE8800 /* EnumUI.swift in Sources */,
+				E542EE4D284AEFBC00074860 /* UserDefaults+Extension.swift in Sources */,
+				E5D7AE892847BA1E00BE8800 /* NavbarViewController.swift in Sources */,
+				E5D7AE7728477BFF00BE8800 /* TodosViewModel.swift in Sources */,
+				E5D7AE8C2847CCDB00BE8800 /* CellTodosTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E5D7AE63284779AA00BE8800 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5D7AE64284779AA00BE8800 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5D7AE68284779AE00BE8800 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +440,6 @@
 				INFOPLIST_FILE = "todo-app-swift-programmatically/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +467,6 @@
 				INFOPLIST_FILE = "todo-app-swift-programmatically/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
